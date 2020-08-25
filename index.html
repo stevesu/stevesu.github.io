@@ -1,0 +1,128 @@
+---
+layout: null
+title: Steven Su
+description: Steven Su's website.
+sitemap:
+    priority: 1.0
+    lastmod: 2017-11-02
+    changefreq: weekly
+---
+<!DOCTYPE HTML>
+<html>
+	<head>
+    {% include head.html %}
+
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+					<h1>Welcome to Steven Su's site</h1>
+						<header>
+						<br /><br />
+							<h2>Dreams</h2>
+								<sub><i>- by Langston Hughes (1902-1967)</i><br /></sub>
+							<br />
+						<p><i>
+							Hold fast to dreams<br />
+							For if dreams die<br />
+							Life is a broken-winged bird<br />
+							That cannot fly.<br /><br />
+							Hold fast to dreams<br />
+							For when dreams go<br />
+							Life is a barren field<br />
+							Frozen with snow.<br />
+						</i></p>
+						</header>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h3>G'day, I'm Steven</h3>
+								</header>
+								<p>I'm a SRE engineer based in Sydney, Australia. 
+									Passionate about technologies and delivering innovation that leads to impact. 
+									To me science is our magic that we can use to change the world, the power is on our hand to make it better not worse -
+									<i>"This world is but a canvas to our imagination!"<sub> - by Henry David Thoreau</sub></i>
+									<a href="#" class="image main"><img src="{{ "/images/SeaSunRise.jpg" | absolute_url }}" alt="" /></a>
+									I have master degree of System Engneering and 
+									bachelar degress of Electronic and Information Engeering. <br />
+									I'm: <br />
+									➣	Certified Kubernetes Administrator<br />
+									➣	Certified Openstack Administrator<br />
+									➣	Certified VMware Certified Professional - Data Center Virtualization<br />
+									➣	Certified Application Developer – IBM Cloud Platform<br />
+									➣	Certified Solutions Specialist – IBM Rational Team Concert<br />
+									➣	Certified IBM DB2 Administrator<br />
+								</p>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+                {% for post in site.posts limit:3 %}
+                {% assign mod3 = forloop.index | modulo: 3 %}
+  								<article>
+  									<header>
+  										<span class="date">{{ post.date | date_to_string }}</span>
+  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+  									</header>
+  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  									<p>{{ post.excerpt }}</p>
+  									<ul class="actions">
+  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+  									</ul>
+  								</article>
+                  {% if mod3 == 0 %}
+                  <article>
+  									<header>
+  										<h2><a href="#">Sponsored</a></h2>
+  									</header>
+
+  								</article>
+                  {% endif %}
+                {% endfor %}
+
+							</section>
+
+						<!-- Footer -->
+							<footer>
+                <ul class="actions">
+                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
+                </ul>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+    {% include tracking.html %}
+
+	</body>
+</html>
