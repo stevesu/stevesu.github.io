@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://steven.su//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://steven.su//feed.xml" rel="self" type="application/atom+xml" /><link href="https://steven.su//" rel="alternate" type="text/html" /><updated>2020-08-28T15:37:34+10:00</updated><id>https://steven.su//</id><title type="html">Steven Su</title><subtitle>Steven Su's website</subtitle><entry><title type="html">Keychron K2 mechanical keyboard</title><link href="https://steven.su//blog/Keychron/" rel="alternate" type="text/html" title="Keychron K2 mechanical keyboard" /><published>2020-08-28T00:00:00+10:00</published><updated>2020-08-28T00:00:00+10:00</updated><id>https://steven.su//blog/Keychron</id><content type="html" xml:base="https://steven.su//blog/Keychron/">&lt;p&gt;Everyone reckon that if you like typing you need a mechnical keyboard. For me there is another reason - I just can’t stand the keyboard of my MacBook Pro, the key travel is soo short that it’s just like typing on a brick!&lt;/p&gt;
+
+&lt;p&gt;I need a keyboard has:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Looks simple and neat&lt;/li&gt;
+  &lt;li&gt;Works with Macbook&lt;/li&gt;
+  &lt;li&gt;Bluetooth connection&lt;/li&gt;
+  &lt;li&gt;Full sized function keys and arrow keys&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;keychron-k2&quot;&gt;Keychron K2&lt;/h2&gt;
+&lt;p&gt;Keychon K2 is already pupular - for it has all features listed above and very reasonable price. Here in Australia it cost $139 for RGB version, still one of the best option on the market.&lt;/p&gt;
+
+&lt;p&gt;I like the feeling/sound of blue swith but I don’t want to disturb others too much so I choosed red switch. It has default Mac keys configured/installed which make it a perfect mate for my Macbook. And … it comes with 15 different lighting modes - who doesn’t like RGBs?&lt;/p&gt;
+
+&lt;p&gt;;-)&lt;/p&gt;</content><summary type="html">Keychron K2 works perfectly with Macbook!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://steven.su//images/keychron.jpg" /></entry><entry><title type="html">Certified Kubenetes Administrator</title><link href="https://steven.su//blog/CKA/" rel="alternate" type="text/html" title="Certified Kubenetes Administrator" /><published>2020-08-07T00:00:00+10:00</published><updated>2020-08-07T00:00:00+10:00</updated><id>https://steven.su//blog/CKA</id><content type="html" xml:base="https://steven.su//blog/CKA/">&lt;p&gt;So after a couple of week’s preparation I passed my CKA test at the first try. I’d like to share some of experiences for that test.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;First, this is all about hands on tasks. No question, no selections but one task after another.&lt;/li&gt;
+  &lt;li&gt;It’s three hours test (note since Sept 2020 the test time change to two hours). If you really familar with all those tasks the time should be sufficient but if you stuck at some point it could take some time. So scheulde your time carefully, dont spend your time on one task too much.&lt;/li&gt;
+  &lt;li&gt;Got familar with kubenetes.io, you will need locate the related topic quick and accurate.&lt;/li&gt;
+  &lt;li&gt;A lot of yaml files, so try to copy / paste from kubenetes.io indead of creating by yourslef. It’s very easy to made human mistake ;-)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;some-materials-i-used-for-preparation&quot;&gt;Some materials I used for preparation&lt;/h3&gt;
+
+&lt;p&gt;https://medium.com/@DrewViles/kubernetes-the-hard-way-on-bare-metal-vms-fdb32bc4fed0&lt;/p&gt;
+
+&lt;p&gt;https://www.manning.com/books/kubernetes-in-action&lt;/p&gt;
+
+&lt;p&gt;https://vmtechie.blog/2019/01/12/how-to-prepare-for-certified-kubernetes-administration-cka-exam/&lt;/p&gt;
+
+&lt;p&gt;https://github.com/leandrocostam/kubernetes-certified-administrator-prep-guide&lt;/p&gt;
+
+&lt;p&gt;https://kubernetes.io/docs/tasks/&lt;/p&gt;
+
+&lt;p&gt;Note it’s not necessary to create your K8S cluster using “hard way” for testing purpuse. But I still recommand you to do so to get a better understanding of how K8S cluster works.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-it-worth-it&quot;&gt;Is it worth it?&lt;/h3&gt;
+&lt;p&gt;Well to get it you will spend quite some time and regisition fee ($300). So the question is - is it worth?&lt;/p&gt;
+
+&lt;p&gt;The answer is - depends on what you need/want. The learning part is most valuable, you got to cover most of the key features of K8S. If you are new to K8S, go get it. But keep in mind that doesn’t mean you becomes an K8S export, a real production environment is always much more complicated/fun than you thougt ;)&lt;/p&gt;</content><summary type="html">I got my CKA certification!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://steven.su//images/CKA.jpg" /></entry><entry><title type="html">Welcome to Massively: The Jekyll Theme!!</title><link href="https://steven.su//blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!!" /><published>2020-08-01T00:00:00+10:00</published><updated>2020-08-01T00:00:00+10:00</updated><id>https://steven.su//blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="https://steven.su//blog/welcome-to-massively-the-jekyll-theme/">&lt;p&gt;I liked this template so I think it deserve a place in my website!&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
+&lt;p&gt;Just go ahead and read up on &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;how to install Jekyll&lt;/a&gt;. It’s not too hard I promise!&lt;/p&gt;
+
+&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
+
+&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
+
+&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;</content><summary type="html">Huge thanks to HTML5 UP for making this awesome template!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://steven.su//images/trees.jpg" /></entry></feed>
