@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-    <url>
-      <loc>https://steven.su/blog/Keychron/</loc>
-      
-        <lastmod>2020-08-28T00:00:00+10:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-    <url>
-      <loc>https://steven.su/blog/CKA/</loc>
-      
-        <lastmod>2020-08-07T00:00:00+10:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-    <url>
-      <loc>https://steven.su/blog/welcome-to-massively-the-jekyll-theme/</loc>
-      
-        <lastmod>2020-08-01T00:00:00+10:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
   
     <url>
       <loc>https://steven.su/about/</loc>
